@@ -24,12 +24,70 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
+    color: #444444;
 }
+
+h2 {
+    font-size: 1.9em;
+    font-weight: 600;
+    color: #444444;
+}
+h3 {
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #444444;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #444444;
+}
+
+h5 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #444444;
+}
+
+h6 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #444444;
+}
+
+h1+p {
+    margin-top: 0;
+}
+
+h2+p {
+    margin-top: 0;
+}
+
+h3+p {
+    margin-top: 0;
+}
+
+h4+p {
+    margin-top: 0;
+}
+
+h5+p {
+    margin-top: 0;
+}
+
+h6+p {
+    margin-top: 0;
+}
+
+
+
 p {
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
+    margin: 1em 0 0;
 }
 footer {
     border-top: 1px solid #d5d5d5;
