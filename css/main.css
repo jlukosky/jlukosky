@@ -57,31 +57,6 @@ h6 {
     color: #444444;
 }
 
-h1+p {
-    margin-top: 0;
-}
-
-h2+p {
-    margin-top: 0;
-}
-
-h3+p {
-    margin-top: 0;
-}
-
-h4+p {
-    margin-top: 0;
-}
-
-h5+p {
-    margin-top: 0;
-}
-
-h6+p {
-    margin-top: 0;
-}
-
-
 
 p {
     font-size: 1em;
