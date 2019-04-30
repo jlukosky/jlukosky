@@ -25,13 +25,26 @@ main{
     padding-bottom: 2em;
 }
 a {
-    text-decoration: none;
-    color: #0B6FBF;
+    color: #0055BE;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #0068F0;
+    outline-color: #0068F0;
+    outline-offset: -2px;
+    outline-style: auto;
+    outline-width: 5px;
 }
+
+
+
+input[type="text"], input[type="email"], input[type="password"]{
+    outline-color: #0068F0;
+    outline-offset: -2px;
+    outline-style: auto;
+    outline-width: 5px;
+}
+
 
 h1 {
     font-size: 2em;
