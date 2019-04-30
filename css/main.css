@@ -26,6 +26,7 @@ main{
 }
 a {
     color: #0055BE;
+    text-decoration:none;
 }
 
 a:hover {
