@@ -7,22 +7,29 @@ body {
     width: 70%;
     font-family: Calibri, 'Segoe UI', 'Helvetica', 'Arial', 'Sans-Serif';
 }
-nav ul, footer ul {
+
+nav ul,
+footer ul {
     padding: 0;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+
+nav ul li,
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #0B6FBF;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 2em;
     color: #444444;
@@ -33,6 +40,7 @@ h2 {
     font-weight: 600;
     color: #444444;
 }
+
 h3 {
     font-size: 1.7em;
     font-weight: 600;
@@ -64,13 +72,14 @@ p {
     color: #333;
     margin: 1em 0 0;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.2em;
 }
 
