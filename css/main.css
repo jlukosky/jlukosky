@@ -87,20 +87,22 @@ main.container ul {
     margin-bottom: 16px;
     margin-top: 0;
 }
+
 main.container:before {
     content: "";
     display: table;
 }
+
 main.container:after {
     clear: both;
     content: "";
     display: table;
 }
+
 p {
     margin-bottom: 10px;
     margin-top: 0;
 }
-
 
 main.container h1,
 main.container h2,
@@ -119,10 +121,13 @@ main.container ul {
     padding-left: 2em;
 }
 
-code, pre, tt {
-    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+code,
+pre,
+tt {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
     font-size: 12px;
 }
+
 main.container code,
 main.container tt {
     background-color: rgba(27, 31, 35, .05);
@@ -138,10 +143,10 @@ footer ul li {
     margin-right: 20px;
 }
 
-
 main.container li+li {
     margin-top: .25em;
 }
+
 main.container li {
     word-wrap: break-all;
 }
@@ -163,8 +168,6 @@ a:focus {
     outline-width: 5px;
 }
 
-
-
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
@@ -173,10 +176,6 @@ input[type="password"]:focus {
     outline-style: auto;
     outline-width: 5px;
 }
-
-
-
-
 
 footer {
     border-top: 1px solid #d5d5d5;
