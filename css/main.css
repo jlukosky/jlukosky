@@ -5,82 +5,132 @@ html {
 body {
     margin: 60px auto;
     width: 70%;
-    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
-main.container{
-    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+main.container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     font-size: 1rem;
     line-height: 1.5;
     word-wrap: break-word;
     padding-bottom: 2em;
 }
 
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section{
-    display:block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+    display: block;
 }
-*{box-sizing:border-box;}
+
+* {
+    box-sizing: border-box;
+}
+
 nav ul,
 footer ul {
     padding: 0;
     list-style: none;
     font-weight: bold;
 }
+
 main.container>:first-child {
-    margin-top: 0!important;
+    margin-top: 0 !important;
 }
-main.container h1, .markdown-body h2 {
+
+main.container h1,
+.markdown-body h2 {
     border-bottom: 1px solid #eaecef;
     padding-bottom: .3em;
 }
+
 main.container h1 {
     font-size: 2em;
 }
+
 main.container h2 {
     font-size: 1.5em;
 }
+
 main.container h3 {
     font-size: 1.25em;
 }
+
 main.container h4 {
     font-size: 1em;
 }
+
 main.container h5 {
     font-size: .875em;
 }
+
 main.container h6 {
     color: #6a737d;
     font-size: .85em;
 }
-main.container blockquote, main.container details, main.container dl, main.container ol, main.container  p, main.container pre, main.container table, main.container ul {
+
+main.container blockquote,
+main.container details,
+main.container dl,
+main.container ol,
+main.container p,
+main.container pre,
+main.container table,
+main.container ul {
     margin-bottom: 16px;
     margin-top: 0;
 }
-
+main.container:before {
+    content: "";
+    display: table;
+}
+main.container:after {
+    clear: both;
+    content: "";
+    display: table;
+}
 p {
     margin-bottom: 10px;
     margin-top: 0;
 }
 
 
-main.container h1, main.container h2, main.container h3, main.container h4, main.container h5, main.container h6 {
+main.container h1,
+main.container h2,
+main.container h3,
+main.container h4,
+main.container h5,
+main.container h6 {
     font-weight: 600;
     line-height: 1.25;
     margin-bottom: 16px;
     margin-top: 24px;
 }
 
-main.container ol, main.container ul {
+main.container ol,
+main.container ul {
     padding-left: 2em;
 }
-main.container code, main.container tt {
-    background-color: rgba(27,31,35,.05);
+
+code, pre, tt {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+    font-size: 12px;
+}
+main.container code,
+main.container tt {
+    background-color: rgba(27, 31, 35, .05);
     border-radius: 3px;
     font-size: 85%;
     margin: 0;
     padding: .2em .4em;
 }
-
 
 nav ul li,
 footer ul li {
@@ -88,14 +138,23 @@ footer ul li {
     margin-right: 20px;
 }
 
+
+main.container li+li {
+    margin-top: .25em;
+}
+main.container li {
+    word-wrap: break-all;
+}
+
 a {
     color: #0055BE;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
+
 a:focus {
     color: #0068F0;
     outline-color: #0068F0;
@@ -106,7 +165,9 @@ a:focus {
 
 
 
-input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
     outline-color: #0068F0;
     outline-offset: -2px;
     outline-style: auto;
