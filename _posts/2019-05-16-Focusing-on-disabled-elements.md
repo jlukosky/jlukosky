@@ -36,7 +36,7 @@ In this battle it seems clear that disabled elements should not be focusable giv
 3. Screen readers (and sharp-eyed sighted folks) can read the disabled element and
 4. The disabled element isn't going to be submitted anyway.
 
-## Other options
+## Other options to consider
 
 So what to do with my friend who wants the disabled element to be more available? All is not lost, there are a couple of alternatives:
 
