@@ -3,7 +3,6 @@ layout: post
 title: "Focusing on disabled elements"
 date: 2019-05-18
 author: "John Lukosky"
-tags: "focus","forms","screen readers","disabled","read-only"
 ---
 
 Should disabled form elements receive focus?
