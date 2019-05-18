@@ -37,7 +37,7 @@ In this battle it seems clear that disabled elements should not be focusable giv
 
 ## Other options
 
-So what to do with my friend who wants transparency? All is not lost, there are a couple of alternatives:
+So what to do with my friend who wants the disabled element to be more available? All is not lost, there are a couple of alternatives:
 
 1. If it is an input or textarea element consider making it read-only instead of disabled.
 2. If warranted, remove disabled elements instead of having them cluttering your form.
