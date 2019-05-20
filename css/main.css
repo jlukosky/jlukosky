@@ -184,6 +184,7 @@ footer {
 
 ul.posts {
     margin: 20px auto 40px;
+    padding-left: 0;
     font-size: 1.2em;
 }
 

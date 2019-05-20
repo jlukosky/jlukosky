@@ -4,5 +4,12 @@ title: John Lukosky's Building Accessibility Blog
 ---
 <div class="blurb">
 	<h1>Building Accessibility</h1>
-	<p>I needed a place to throw my thoughts and findings and this is it. I will periodically be adding posts related to accessibility and adding additional resources. Stay tuned.</p>
+	<p>This is my place for thoughts, findings, and notes. I will periodically be adding posts related to accessibility and adding additional resources. Stay tuned.</p>
+
+	<ul class="posts">
+
+		{% for post in site.posts %}
+			<li><span>{{ post.date | date_to_string }}</span> &gt; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
 </div><!-- /.blurb -->
