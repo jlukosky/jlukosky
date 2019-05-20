@@ -3,7 +3,7 @@ layout: post
 title: "Focusing on disabled elements"
 date: 2019-05-18
 author: "John Lukosky"
-tags: "forms","focus"
+tags: "forms"
 ---
 
 Should disabled form elements receive focus?
