@@ -2,24 +2,24 @@
 layout: feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
-	<title>Hank Quinlan's Blog</title>
-	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://hankquinlan.github.io/blog"/>
+	<title>Building Accessibility Blog</title>
+	<link href="https://jlukosky.github.io/blog/atom.xml" rel="self"/>
+	<link href="https://jlukosky.github.io"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://hankquinlan.github.io/blog</id>
+	<id>https://jlukosky.github.io</id>
 	<author>
-		<name>Hank Quinlan</name>
-		<email>hankquinlanhub@gmail.com</email>
+		<name>John Lukosky</name>
+		<email>jlukosky@gmail.com</email>
 	</author>
 
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://hankquinlan.github.io{{ post.url }}"/>
+			<link href="https://jlukosky.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://hankquinlan.github.io{{ post.id }}</id>
+			<id>https://jlukosky.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
