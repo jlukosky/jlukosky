@@ -4,6 +4,7 @@ title: "Focusing on disabled elements"
 date: 2019-05-18
 author: "John Lukosky"
 category: accessibility
+description: "An analysis of whether disabled form elements should be a web page's focus order"
 tags: [disabled,focus,forms,screen reader]
 ---
 
