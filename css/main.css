@@ -186,6 +186,10 @@ main.container ul.posts{
     padding-left:0;
 }
 
+main.container img{
+    max-width: 100%;
+}
+
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.2em;
