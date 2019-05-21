@@ -9,7 +9,7 @@ tags: [disabled,focus,forms,screen reader]
 
 ## Should disabled form elements receive focus?
 
-![A sharply focused horse on a beach next to two blurred horses](../horsesblurred.jpg)
+![A sharply focused horse on a beach next to two blurred horses](/assets/2019/05/horsesblurred.jpg)
 
 A friend of mine insists that disabled form fields should be focusable. Their reasoning, as a blind person, is that it makes it easier to determine the contents of a form. We certainly don't want to hide anything.
 
