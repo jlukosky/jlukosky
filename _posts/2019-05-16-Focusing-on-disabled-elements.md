@@ -6,6 +6,7 @@ author: "John Lukosky"
 category: accessibility
 description: "An analysis of whether disabled form elements should be a web page's focus order"
 tags: [disabled,focus,forms,screen reader]
+ogimage: "https://jlukosky.github.io/assets/2019/05/horsesblurred.jpg"
 ---
 
 ## Should disabled form elements receive focus?
