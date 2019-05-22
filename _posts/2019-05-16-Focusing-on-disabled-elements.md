@@ -26,6 +26,8 @@ Let's look at what makes a disabled form element special. According to [HTML5 4.
 
 When these elements are disabled they cannot be focused. They will also match the :disabled pseudo-class.
 
+Did you notice the anchor tag isn't in that list? If you're using anchors for buttons and other nonsense this is one more reason to reform your ways. Anchors don't support the disabled attribute.
+
 Screen readers can still read these items but only through browsing the text with arrows. Even tabindex="0" is not going to work in this case.
 As you can see from the allowed elements, disabled is only allowed on form controls. At times some may attempt to use it on the anchor element (a) but this will have no effect.
 
