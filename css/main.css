@@ -14,13 +14,13 @@ body {
     top:auto;
     width:1px;
     height:1px;
+    padding:.3rem;
     overflow:hidden;
     background-color:#FFFFFF;
 }
 .skiptomain:focus {
-    position:relative;
-    left: 0;
-    top:auto;
+    left: 2rem;
+    top:2rem;
     width:200px;
     height:auto;
     overflow: visible;
