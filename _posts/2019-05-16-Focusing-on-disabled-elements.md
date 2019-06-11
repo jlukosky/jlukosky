@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Focusing on disabled elements"
+title: "Focusing on disabled elements: should disabled form elements receive focus?"
 date: 2019-05-18
 author: "John Lukosky"
 category: accessibility
@@ -8,8 +8,6 @@ description: "An analysis of whether disabled form elements should be a web page
 tags: [disabled,focus,forms,screen reader]
 ogimage: "https://jlukosky.github.io/assets/2019/05/horsesblurred.jpg"
 ---
-
-## Should disabled form elements receive focus?
 
 ![A sharply focused horse on a beach next to two blurred horses](/assets/2019/05/horsesblurred.jpg)
 
