@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Heading for disaster: correcting heading levels in page footers and asides"
-date: 2019-05-18
+date: 2019-06-11
 author: "John Lukosky"
 category: accessibility
 description: "Correcting heading levels in page footers and asides"
