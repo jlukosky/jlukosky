@@ -216,8 +216,7 @@ footer {
 main.container ul.posts{
     padding-left:0;
 }
-
-main.container img{
+main.container img {
     max-width: 100%;
 }
 
@@ -238,26 +237,27 @@ ul.posts li {
     padding: 4px 0;
     overflow: hidden;
     *zoom: 1;
-  }
-  
-  .tag-box:before, .tag-box:after {
+}
+
+.tag-box:before,
+.tag-box:after {
     display: table;
     content: "";
     line-height: 0;
-  }
-  
-  .tag-box:after {
+}
+
+.tag-box:after {
     clear: both;
-  }
-  
-  .tag-box.inline li {
+}
+
+main.container .tag-box.inline li {
     float: left;
     font-size: 14px;
     font-size: 0.875rem;
     line-height: 2.5;
-  }
-  
-  .tag-box a {
+}
+
+main.container .tag-box a {
     padding: 4px 6px;
     margin: 2px;
     background-color: #e6e6e6;
@@ -265,11 +265,11 @@ ul.posts li {
     -moz-border-radius: 4px;
     border-radius: 4px;
     text-decoration: none;
-  }
-  
-  .tag-box a span {
+}
+
+main.container .tag-box a span {
     vertical-align: super;
     font-size: 10px;
     font-size: 0.625rem;
-  }
+}
 
