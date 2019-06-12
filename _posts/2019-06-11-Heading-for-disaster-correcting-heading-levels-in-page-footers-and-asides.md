@@ -33,7 +33,7 @@ Another method I've encountered is the "heck with it" method. Developers get fru
 1. Headings in the footer don't sequence after the main area and
 2. Applying code without understanding what the effects are. Yes, even if a tester is shouting "this has to be fixed!".
 
-## The alternative: reset the heading order
+## The alternative: reset the top heading of independent sections to level 2
 
 The aside element implicitly has the complementary landmark role. Complementary landmarks should relate to the main content at a similar level in the DOM while remaining meaningful when separated from the main content. Clearly, headings in the aside (or complementary landmark) should begin with level 2.
 
