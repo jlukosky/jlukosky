@@ -5,7 +5,7 @@ date: 2019-06-11
 author: "John Lukosky"
 category: accessibility
 description: "Correcting heading levels in page footers and asides"
-tags: [disabled,focus,forms,screen reader]
+tags: [headings,landmarks]
 ogimage: "https://jlukosky.github.io/assets/2019/06/headings.jpg"
 ---
 
