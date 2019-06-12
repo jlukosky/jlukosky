@@ -221,9 +221,6 @@ footer {
     font-size: .8em;
 }
 
-main.container ul.posts{
-    padding-left:0;
-}
 main.container img {
     max-width: 100%;
 }
@@ -234,7 +231,6 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: none;
     margin-bottom: .8rem;
 }
 
