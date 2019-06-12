@@ -5,7 +5,7 @@ description: "Posts by tag"
 ogimage: "https://jlukosky.github.io/assets/BA.png"
 ---
 <h1>{{ page.title }}</h1>
-<p>{{ page.description }}</p>
+<h2 class="h4">{{ page.description }}</h2>
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 <!-- site_tags: {{ site_tags }} -->
