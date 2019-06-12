@@ -39,4 +39,4 @@ The aside element implicitly has the complementary landmark role. Complementary 
 
 The footer element implicitly has the contentinfo landmark role. Contentinfo landmarks identify common information at the bottom of each page within a website. This information typically includes copyright information and links to privacy and accessibility policies. The content applies site-wide, not to each page specifically. If headings are used in the footer  (or contentinfo landmark), begin these with level 2 as well.
 
-To read more about heading, [W3C's Headings tutorial](https://www.w3.org/WAI/tutorials/page-structure/headings/#main-heading-before-navigation) is a great start.
+To read more about proper heading structures, [W3C's Headings tutorial](https://www.w3.org/WAI/tutorials/page-structure/headings/#main-heading-before-navigation) is a great start.
