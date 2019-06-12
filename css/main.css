@@ -266,6 +266,9 @@ main.container .tag-box.inline li {
     margin-top: 0;
 
 }
+main.container .tag-box.inline li+li {
+    margin-top: 0;
+}
 
 main.container .tag-box a {
     padding: 4px 6px;
