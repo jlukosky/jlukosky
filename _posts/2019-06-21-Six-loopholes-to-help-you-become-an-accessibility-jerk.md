@@ -4,7 +4,7 @@ title: "Six loopholes to help you become an accessibility jerk"
 date: 2019-06-21
 author: "John Lukosky"
 category: accessibility
-description: "An analysis of whether disabled form elements should be a web page's focus order"
+description: "Here are six tips to help you become an embarrassment to humanity while keeping your site WCAG compliant."
 tags: [contrast,logo,focus,WCAG]
 ogimage: "https://jlukosky.github.io/assets/2019/06/screws4u.jpg"
 ---
