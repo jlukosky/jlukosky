@@ -9,7 +9,6 @@ ogimage: "https://jlukosky.github.io/assets/BA.png"
 	<p>Thoughts, findings, and observations. Additional posts are in the pipeline so check back soon.</p>
 
 	<ul class="posts">
-
 		{% for post in site.posts %}
 			<li><span>{{ post.date | date_to_string }}</span> &gt; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 		{% endfor %}

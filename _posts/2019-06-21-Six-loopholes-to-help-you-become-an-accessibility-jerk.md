@@ -5,9 +5,10 @@ date: 2019-06-21
 author: "John Lukosky"
 category: accessibility
 description: "Here are six tips to help you become an embarrassment to humanity while keeping your site WCAG compliant."
-tags: [contrast,logo,focus,WCAG]
+tags: [contrast,logos,focus,WCAG]
 ogimage: "https://jlukosky.github.io/assets/2019/06/screws4u.jpg"
 ---
+Here are six tips to help you become an embarrassment to humanity while keeping your site WCAG compliant.
 
 1. [To add text on a page without color contrast limitations use a disabled element](https://www.w3.org/WAI/WCAG21/Techniques/general/G165) like a button. Style it nice and horrible to look like hipster text.
 2. [Create logos to create content immune from contrast and color requirements](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html#key-terms).
