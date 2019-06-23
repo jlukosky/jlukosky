@@ -16,7 +16,7 @@ Here are six tips to help you become an embarrassment to humanity while keeping 
 1. [To add text on a page without color contrast limitations use a disabled element](https://www.w3.org/WAI/WCAG21/Techniques/general/G165) like a button. Style it nice and horrible to look like hipster text.
 2. [Create logos to create content immune from contrast and color requirements](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html#key-terms).
 3. Use a very small font. Aren't small fonts the cutest? There's a good chance that antialiasing will render an inadequate contrast. WCAG has your back by stating [contrast testing can be performed with antialiasing turned off](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html#key-terms).
-4. Combine a lightweight font family with a font color that provides marginal contrast. This common technique is used by thousands of sites to make things horrible for everyone.
+4. Combine a lightweight font family with a font color that provides marginal contrast. This common technique is used by thousands of sites to make things horrible for everyone. Prudes may want to cling to [proper methods of type color and contrast](https://betterwebtype.com/articles/2019/06/16/5-keys-to-accessible-web-typography/#type-colour-and-contrast).
 5. Declare all images on a page (that aren't functional) as decorative and add alt="".  
 6. [Let user-agent defaults dictate focus appearance](https://www.w3.org/WAI/WCAG21/Techniques/general/G165). Now take that focus outline color use that for your background. Très chic!
 
