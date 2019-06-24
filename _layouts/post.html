@@ -10,9 +10,9 @@ layout: default
 {{content}}
 
 {% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+  <!-- <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small> -->
 
-  <div class="post-tags">
+  <div class="post-tags tag-box">
     {% if post %}
       {% assign tags = post.tags %}
     {% else %}

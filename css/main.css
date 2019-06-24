@@ -276,6 +276,11 @@ main.container .tag-box a {
     text-decoration: none;
 }
 
+main.container .tag-box a:hover,
+main.container .tag-box a:focus {
+    border: 1px solid #666;
+}
+
 main.container .tag-box a span {
     vertical-align: super;
     font-size: 10px;
