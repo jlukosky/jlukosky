@@ -15,13 +15,13 @@ A friend of mine insists that disabled form fields should be focusable. Their re
 
 Let's look at what makes a disabled form element special. According to [HTML5 4.13 Disabled elements](https://www.w3.org/TR/2014/REC-html5-20141028/disabled-elements.html) the following elements can be actually disabled using the disabled attribute:
 
-- 'button'
-- 'input'
-- 'select'
-- 'textarea'
-- 'optgroup'
-- 'option'
-- 'fieldset'
+- `button`
+- `input`
+- `select`
+- `textarea`
+- `optgroup`
+- `option`
+- `fieldset`
 
 When these elements are disabled they cannot be focused. They will also match the :disabled pseudo-class.
 
@@ -45,5 +45,5 @@ In this battle it seems clear that disabled elements should not be focusable giv
 
 So what to do with my friend who wants the disabled element to be more available? All is not lost, there are a couple of alternatives:
 
-1. If it is an 'input' or 'textarea' element consider making it read-only instead of disabled.
+1. If it is an `input` or `textarea` element consider making it read-only instead of disabled.
 2. If warranted, remove disabled elements instead of having them cluttering your form.
