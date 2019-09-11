@@ -27,21 +27,22 @@ Let's look at what makes a disabled form element special. According to [HTML5 4.
 
 When these elements are disabled they cannot be focused. They will also match the :disabled pseudo-class.
 
-Did you notice the `a` element isn't in that list? If you're using anchors for buttons and other nonsense this is one more reason to reform your ways and follow semantics. Anchors don't support the disabled attribute.
+Did you notice the `a` element isn't in the list of elements that can use the `disabled` attribute? If you're using anchors for buttons and other nonsense this is one more reason to reform your ways and follow semantics. Anchors don't support the disabled attribute.
 
-Screen readers can still read these items but only through browsing the text with arrows. **Even tabindex="0" will not make disabled form elements focusable.**
-As you can see from the allowed elements, disabled is only allowed on form controls. At times some may attempt to use it on the anchor element (a) but this will have no effect.
+Screen readers can read disabled elements by browsing the text with the arrow keys. As you can see from the allowed elements, `disabled` is only allowed on form controls. At times some may attempt to use it on the anchor element (`a`) but this will have no effect.
+
+If you want to force focus, be aware **even tabindex="0" will not make disabled form elements focusable.**
 
 Another consideration for these disabled elements is they are no longer subject to WCAG contrast requirements. They could be impossible to read and still be compliant. This stacks up oddly against what is happening for non-visual users. Non-visual users can read the disabled element's properties but this is not necessarily true for sighted users, particularly those with low vision.
 
 ## The verdict - disabled shouldn't focus
 
-In this battle it seems clear that disabled elements should not be focusable given that 
+In this battle it seems clear that disabled elements should not be focusable given that:
 
-1. HTML5 says disabled elements don't belong in the focus order and
-2. Screen readers don't override this behavior
-3. Screen readers (and sharp-eyed sighted folks) can read the disabled element and
-4. The disabled element isn't going to be submitted anyway.
+1. HTML5 says disabled elements don't belong in the focus order.
+2. Screen readers don't focus on form elements with the `disabled` attribute.
+3. Screen readers (and sharp-eyed sighted folks) can still read the disabled element. It just won't receive focus.
+4. Disabled elements aren't submitted. This further lessens the need to review the item.
 
 ## Other options to consider
 
