@@ -47,6 +47,6 @@ In this battle it seems clear that disabled elements should not be focusable giv
 
 So what to do with my friend who wants the disabled element to be more available? All is not lost, there are a couple of alternatives:
 
-1. If it is an `input` or `textarea` element consider making it read-only instead of disabled.
+1. For `input` or `textarea` elements, making the element `read-only` instead of `disabled` will retain focusability.
 2. If warranted, remove disabled elements instead of having them cluttering your form.
-3. For a submit button, consider not using `disabled`. Instead, use an informative message to alert the user to any errors or missed requirements.
+3. For a submit button, consider not using `disabled`. Instead, use an onclick informative message to alert the user to any errors or missed requirements.
