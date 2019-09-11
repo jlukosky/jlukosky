@@ -11,6 +11,8 @@ ogimage: "https://jlukosky.github.io/assets/2019/05/horsesblurred.jpg"
 
 ![A sharply focused horse on a beach next to two blurred horses](/assets/2019/05/horsesblurred.jpg)
 
+Updated 11 September 2019
+
 A friend of mine insists that disabled form fields should be focusable. Their reasoning, as a blind person, is that it makes it easier to determine the contents of a form. We certainly don't want to hide anything.
 
 Let's look at what makes a disabled form element special. According to [HTML5 4.13 Disabled elements](https://www.w3.org/TR/2014/REC-html5-20141028/disabled-elements.html), the following elements can be actually disabled using the disabled attribute:
@@ -47,3 +49,4 @@ So what to do with my friend who wants the disabled element to be more available
 
 1. If it is an `input` or `textarea` element consider making it read-only instead of disabled.
 2. If warranted, remove disabled elements instead of having them cluttering your form.
+3. For a submit button, consider not using `disabled`. Instead, use an informative message to alert the user to any errors or missed requirements.
